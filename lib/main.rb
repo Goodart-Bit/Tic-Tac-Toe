@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require './controller'
+require_relative 'game'
 
-game_ctrl = GameController.new
-game_ctrl.play
+game = Game.new
+game.play
